@@ -36,4 +36,4 @@ def read_data(name):
     return data
 
 data = read_data('test.cvs')
-make_model(data.x, data.y, data.z, 'rez.png')
+make_model(data.x, data.y, data.z, 'rez')
